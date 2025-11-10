@@ -38,4 +38,6 @@ while True:
 
     # wait for pressing ESC to break the loop
     if cv2.waitKey(1) == 27:
+        cap.release()
+        cv2.destroyAllWindows()
         break
