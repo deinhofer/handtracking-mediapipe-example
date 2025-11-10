@@ -9,7 +9,7 @@ Clone the project, create a virtual environment and install the following depend
 
 Create virtual environment:
 ```bash
-pip -m venv venv
+python -m venv venv
 ```
 
 Activate virtual environment (Linux only)

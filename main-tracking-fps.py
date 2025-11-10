@@ -7,7 +7,7 @@ mpHands=mp.solutions.hands
 hands=mpHands.Hands(model_complexity=0, min_tracking_confidence=0.5,min_detection_confidence=0.5)
 mpDraw=mp.solutions.drawing_utils
 # init camera object
-cap=cv2.VideoCapture(4)
+cap=cv2.VideoCapture(0)
 
 #init fps
 cTime=time.time()
